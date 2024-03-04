@@ -36,3 +36,6 @@
     ~~~
 - This finds the video number and the starting time of the query clip in the video.
 - Uncomment ```line #61``` in ```query.py``` to view the video in VLC player.
+
+![image](https://github.com/it-is-jay/Video-Search-Indexing-based-on-Multimedia-Information/assets/73879842/6233ac12-416b-4228-af93-3422116a4721)
+
