@@ -1,0 +1,9 @@
+#!/bin/bash
+
+foldername=videos/*
+
+for file in $foldername
+do
+    echo $file
+    ffprobe -v error -hide_banner -select_streams v:0 $file -show_packets -show_data_hash MD5 -sexagesimal -of json > videos_json/$(basename $file).json
+done
